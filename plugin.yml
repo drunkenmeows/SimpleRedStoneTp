@@ -1,0 +1,15 @@
+name: SimpleRedstoneTP
+main: me.drunkenmeows.simpleredstonetp.SimpleRedstoneTP
+version: '1.91'
+author: drunkenmeows
+description: Use redstone to teleport a specified distance for a redstone cost.
+commands:
+   srtptoggle:
+      description: Toggles the use of redstone to teleport.
+      permissions: srtp.player
+      aliases: srtp
+      
+permissions:
+    srtp.player:
+        description: allow a player to use red stone to teleport.
+        default: OP

@@ -1,0 +1,19 @@
+#SimpleRedstoneTP config
+
+#Burn (use) upto 4 pieces of redstone per teleport
+cost: 4
+#Teleport upto 40 blocks
+distance: 40
+#combat timeout time (seconds) for teleport
+combattimeout: 10
+
+#Simple RedstoneTP messages
+# %c - cost, %d - distance, %t - timeouttime
+Messages:
+  Prefix: '&f[&csrTP&f] '
+  ToggleOn: '&2Redstone teleport &f[&cenabled&f]!'
+  ToggleOff: '&2Redstone teleport &f[&cdisabled&f]!'
+  NoSpace: '&2Sorry, Not enough space to teleport there!'
+  NoEnoughRedstone: '&2Sorry, You need &f[&c%c&f]&2 Red Stone to Teleport.'
+  NotThere: '&2Sorry, you can''t teleport there!'
+  CombatTimeout: '&2In combat! You can''t teleport for &f[&c%t&f]&2seconds'
